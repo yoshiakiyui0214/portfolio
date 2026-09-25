@@ -31,6 +31,8 @@ export default function Home() {
               <span className="skill-tag">Supabase / pgvector</span>
               <span className="skill-tag">Claude API</span>
               <span className="skill-tag">Vercel</span>
+              <span className="skill-tag">GitHub Actions</span>
+              <span className="skill-tag">Vitest</span>
               <span className="skill-tag">Photoshop</span>
               <span className="skill-tag">LP / バナー制作</span>
             </div>
@@ -51,6 +53,7 @@ export default function Home() {
       </section>
 
       <section>
+        {/* 案件 001 */}
         <h2 className="section-title">
           <span className="no">案件 001</span>社内文書検索AI（RAG）
         </h2>
@@ -73,10 +76,7 @@ export default function Home() {
             pgvectorによるベクトル検索基盤とClaude APIを組み合わせ、根拠付きで回答できるRAGシステムを実現。要件定義から本番デプロイまで完走。
           </p>
           <figure className="project-shot">
-            <img
-              src="/images/rag-search-result.png"
-              alt="社内文書検索AIで質問に対する回答と参照元PDFが表示されている画面"
-            />
+            <img src="/images/rag-search-result.png" alt="社内文書検索AIで質問に対する回答と参照元PDFが表示されている画面" />
             <figcaption>質問応答画面 — 回答と参照元文書（出典付き）</figcaption>
           </figure>
           <div className="tech-tags">
@@ -87,15 +87,12 @@ export default function Home() {
             <span className="tech-tag">Claude API</span>
           </div>
           <div className="project-links">
-            <a href="https://rag-document-search-flame.vercel.app" target="_blank" rel="noopener">
-              Demo ↗
-            </a>
-            <a href="https://github.com/yoshiakiyui0214" target="_blank" rel="noopener">
-              GitHub ↗
-            </a>
+            <a href="https://rag-document-search-flame.vercel.app" target="_blank" rel="noopener">Demo ↗</a>
+            <a href="https://github.com/yoshiakiyui0214" target="_blank" rel="noopener">GitHub ↗</a>
           </div>
         </div>
 
+        {/* 案件 002 */}
         <h2 className="section-title">
           <span className="no">案件 002</span>ブログ記事自動生成システム
         </h2>
@@ -116,10 +113,7 @@ export default function Home() {
             GASからClaude APIで記事を生成し、WordPress REST API経由で自動投稿する一連のパイプラインを構築。API連携部分のエラーハンドリングを重ね、安定稼働するフローに仕上げた。
           </p>
           <figure className="project-shot">
-            <img
-              src="/images/blog-gas-prompt.png"
-              alt="GASのコードエディタで記事生成用プロンプトを設計している画面"
-            />
+            <img src="/images/blog-gas-prompt.png" alt="GASのコードエディタで記事生成用プロンプトを設計している画面" />
             <figcaption>GAS — 記事生成プロンプトの設計（トーン・文字数・出力形式を厳密に指定）</figcaption>
           </figure>
           <div className="tech-tags">
@@ -128,16 +122,11 @@ export default function Home() {
             <span className="tech-tag">WordPress REST API</span>
           </div>
           <div className="project-links">
-            <a
-              href="https://github.com/yoshiakiyui0214/blog-auto-generator-gas"
-              target="_blank"
-              rel="noopener"
-            >
-              GitHub ↗
-            </a>
+            <a href="https://github.com/yoshiakiyui0214/blog-auto-generator-gas" target="_blank" rel="noopener">GitHub ↗</a>
           </div>
         </div>
 
+        {/* 案件 003 */}
         <h2 className="section-title">
           <span className="no">案件 003</span>美容室向けLINE公式アカウントBot
         </h2>
@@ -165,10 +154,7 @@ export default function Home() {
               <figcaption>管理画面 — FAQ管理</figcaption>
             </figure>
             <figure className="project-shot">
-              <img
-                src="/images/line-bot-salon-chat.png"
-                alt="LINEトーク画面。確信度が低い回答をオーナーへ自動通知している様子"
-              />
+              <img src="/images/line-bot-salon-chat.png" alt="LINEトーク画面。確信度が低い回答をオーナーへ自動通知している様子" />
               <figcaption>LINEトーク — 確信度判定＆オーナー自動通知</figcaption>
             </figure>
           </div>
@@ -180,21 +166,106 @@ export default function Home() {
             <span className="tech-tag">Claude API</span>
           </div>
           <div className="project-links">
-            <a href="https://line-bot-salon-six.vercel.app" target="_blank" rel="noopener">
-              Demo ↗
-            </a>
-            <a href="https://github.com/yoshiakiyui0214/line-bot-salon" target="_blank" rel="noopener">
-              GitHub ↗
-            </a>
+            <a href="https://line-bot-salon-six.vercel.app" target="_blank" rel="noopener">Demo ↗</a>
+            <a href="https://github.com/yoshiakiyui0214/line-bot-salon" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+
+        {/* 案件 004 */}
+        <h2 className="section-title">
+          <span className="no">案件 004</span>大規模ナレッジ検索AI（RAG＋Slack bot）
+        </h2>
+        <div className="project">
+          <div className="project-head">
+            <div>
+              <p className="project-no">DELIVERY NOTE — 004</p>
+              <h3 className="project-title">rag-document-search</h3>
+            </div>
+            <div className="stamp-done">
+              検収
+              <br />済
+            </div>
+          </div>
+          <p className="project-desc">
+            コンサルティング会社向けを想定した大規模ナレッジ検索システム。文書検索(RAG)+Slack bot+部署別アクセス制御+監査ログまでを実装。
+          </p>
+          <p className="project-note">
+            <b>工夫した点：</b>
+            セクション単位のチャンキング設計でRecall@5=100%を達成。RLSによる部署別アクセス制御をアプリ層でも徹底し、質問ログを監査可能な形で記録。誤って機密文書を取り込んだ場合に備えたredact機能や、月次レポートの自動Slack通知も実装。
+          </p>
+          <div className="shot-grid">
+            <figure className="project-shot">
+              <img src="/images/case7-rag-slack.png" alt="Slack bot回答画面。出典付きで質問に自動回答している様子" />
+              <figcaption>Slack bot — 出典付き自動回答</figcaption>
+            </figure>
+          </div>
+          <div className="tech-tags">
+            <span className="tech-tag">Next.js</span>
+            <span className="tech-tag">TypeScript</span>
+            <span className="tech-tag">Supabase / pgvector</span>
+            <span className="tech-tag">Voyage AI</span>
+            <span className="tech-tag">Claude API</span>
+            <span className="tech-tag">Slack API</span>
+            <span className="tech-tag">Vercel</span>
+          </div>
+          <div className="project-links">
+            <a href="https://rag-document-search-flame.vercel.app" target="_blank" rel="noopener">Demo ↗</a>
+            <a href="https://github.com/yoshiakiyui0214/rag-document-search" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+
+        {/* 案件 005 */}
+        <h2 className="section-title">
+          <span className="no">案件 005</span>AI搭載売上分析ダッシュボード
+        </h2>
+        <div className="project">
+          <div className="project-head">
+            <div>
+              <p className="project-no">DELIVERY NOTE — 005</p>
+              <h3 className="project-title">sales-dashboard</h3>
+            </div>
+            <div className="stamp-done">
+              検収
+              <br />済
+            </div>
+          </div>
+          <p className="project-desc">
+            アパレルEC向け。毎月3時間かかっていたExcelでの売上レポート作業を、CSVをアップロードするだけで完了させるダッシュボード。3大KPI（売上・粗利・リピート率）・月次推移・カテゴリ別・SKU別の分析と、AIによる分析コメントを自動表示。
+          </p>
+          <p className="project-note">
+            <b>工夫した点：</b>
+            Excelでの集計と突合し、全KPIが完全一致することを検証。納品前チェックで二重計上や1,000件の取得上限などの数字のズレを見つけて解消した。CSVの正規化とテスト13件をCIで自動実行し、テスト合格時のみ本番デプロイする仕組みを構築。ROI試算と、予算内に収まる運用プランの提案まで実施。
+          </p>
+          <div className="shot-grid">
+            <figure className="project-shot">
+              <img src="/images/case8-dashboard.png" alt="売上分析ダッシュボード。売上・粗利・リピート率のKPIカードと月次売上推移グラフ" />
+              <figcaption>ダッシュボード — 3大KPIと前月比・月次推移</figcaption>
+            </figure>
+            <figure className="project-shot">
+              <img src="/images/case8-ai-analysis.png" alt="AI分析コメント。売上のサマリーとアクション提案が表示されている様子" />
+              <figcaption>AI分析 — サマリーとアクション提案</figcaption>
+            </figure>
+          </div>
+          <div className="tech-tags">
+            <span className="tech-tag">Next.js</span>
+            <span className="tech-tag">TypeScript</span>
+            <span className="tech-tag">Recharts</span>
+            <span className="tech-tag">Supabase</span>
+            <span className="tech-tag">Claude API</span>
+            <span className="tech-tag">Vitest</span>
+            <span className="tech-tag">GitHub Actions</span>
+            <span className="tech-tag">Vercel</span>
+          </div>
+          <div className="project-links">
+            <a href="https://sales-dashboard-my-team051.vercel.app" target="_blank" rel="noopener">Demo ↗</a>
+            <a href="https://github.com/yoshiakiyui0214/sales-dashboard" target="_blank" rel="noopener">GitHub ↗</a>
           </div>
         </div>
       </section>
 
       <footer>
         <p>お仕事のご相談はお気軽にお問い合わせください。</p>
-        <a className="contact-btn" href="mailto:yuichan.501@icloud.com">
-          お問い合わせ ↗
-        </a>
+        <a className="contact-btn" href="mailto:yuichan.501@icloud.com">お問い合わせ ↗</a>
       </footer>
     </div>
   );
