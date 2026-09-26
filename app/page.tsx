@@ -166,7 +166,6 @@ export default function Home() {
             <span className="tech-tag">Claude API</span>
           </div>
           <div className="project-links">
-            <a href="https://line-bot-salon-six.vercel.app" target="_blank" rel="noopener">Demo ↗</a>
             <a href="https://github.com/yoshiakiyui0214/line-bot-salon" target="_blank" rel="noopener">GitHub ↗</a>
           </div>
         </div>
