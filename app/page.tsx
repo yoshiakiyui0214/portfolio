@@ -56,13 +56,64 @@ export default function Home() {
 
       <section>
         {/* DESIGN 001 */}
-        <h2 className="section-title">
-          <span className="no">DESIGN 001</span>美容室LPデザイン（テンプレート横展開）
+        <h2 className="section-title" id="banner">
+          <span className="no">DESIGN 001</span>商品画像・バナー制作
         </h2>
         <div className="project">
           <div className="project-head">
             <div>
               <p className="project-no">DESIGN NOTE — 001</p>
+              <h3 className="project-title">EC商品画像・広告バナー</h3>
+            </div>
+            <div className="stamp-done">
+              自主
+              <br />制作
+            </div>
+          </div>
+          <p className="project-desc">
+            楽天・Amazonなどのショッピングサイトに載せる商品画像と、Web広告バナーを想定して制作した作品です（練習作品）。
+          </p>
+          <p className="project-note">
+            <b>工夫した点：</b>
+            ターゲットや目的に合わせたデザイン設計を意識し、「伝わる・行動につながる」ビジュアルを目指しました。商品ごとに、色展開・使うシーン・選ぶ理由など、見る人が知りたいことが一目で伝わる構成にしています。
+          </p>
+          <div className="shot-grid">
+            <figure className="project-shot">
+              <img src="/images/design-lip-main.jpg" alt="美容液リップのメイン商品画像。モデル写真と4色のリップを並べたピンク基調のデザイン" />
+              <figcaption>美容液リップ — メイン画像（大人の女性向け）</figcaption>
+            </figure>
+            <figure className="project-shot">
+              <img src="/images/design-parfait.jpg" alt="期間限定のいちご尽くしパフェを訴求するカフェのSNS広告バナー" />
+              <figcaption>期間限定パフェ — SNS広告バナー</figcaption>
+            </figure>
+            <figure className="project-shot">
+              <img src="/images/design-block-gift.jpg" alt="ギフトボックスと木製ブロックの商品画像。記念日フォト・成長記録などの用途をチェックリストで表示" />
+              <figcaption>木製ブロック — ギフト訴求</figcaption>
+            </figure>
+            <figure className="project-shot">
+              <img src="/images/design-block-color.jpg" alt="木製ブロックのカラー展開（Natural・Pink・Blue）を紹介する商品画像" />
+              <figcaption>木製ブロック — カラー展開</figcaption>
+            </figure>
+            <figure className="project-shot">
+              <img src="/images/design-block-life.jpg" alt="子どもが木製ブロックで遊ぶ写真と月齢フォトの使用例を並べた商品画像" />
+              <figcaption>木製ブロック — 使用シーン</figcaption>
+            </figure>
+          </div>
+          <div className="tech-tags">
+            <span className="tech-tag">バナー制作</span>
+            <span className="tech-tag">EC商品画像</span>
+            <span className="tech-tag">SNS広告</span>
+          </div>
+        </div>
+
+        {/* DESIGN 002 */}
+        <h2 className="section-title" id="lp">
+          <span className="no">DESIGN 002</span>美容室LPデザイン（テンプレート横展開）
+        </h2>
+        <div className="project">
+          <div className="project-head">
+            <div>
+              <p className="project-no">DESIGN NOTE — 002</p>
               <h3 className="project-title">Lueur 店舗LP</h3>
             </div>
             <div className="stamp-done">
