@@ -34,6 +34,8 @@ export default function Home() {
               <span className="skill-tag">GitHub Actions</span>
               <span className="skill-tag">Vitest</span>
               <span className="skill-tag">Photoshop</span>
+              <span className="skill-tag">Figma</span>
+              <span className="skill-tag">Canva</span>
               <span className="skill-tag">LP / バナー制作</span>
             </div>
           </div>
@@ -53,6 +55,51 @@ export default function Home() {
       </section>
 
       <section>
+        {/* DESIGN 001 */}
+        <h2 className="section-title">
+          <span className="no">DESIGN 001</span>美容室LPデザイン（テンプレート横展開）
+        </h2>
+        <div className="project">
+          <div className="project-head">
+            <div>
+              <p className="project-no">DESIGN NOTE — 001</p>
+              <h3 className="project-title">Lueur 店舗LP</h3>
+            </div>
+            <div className="stamp-done">
+              自主
+              <br />制作
+            </div>
+          </div>
+          <p className="project-desc">
+            架空の髪質改善サロン「Lueur」のLPをデザインし、テンプレート化して渋谷・吉祥寺・横浜・表参道の4店舗分のLPに横展開。ターゲットは仕事帰りに通いたい20〜30代の会社員。お悩みへの共感から、こだわり・メニュー・スタッフ・お客様の声・予約までの10セクションで構成。
+          </p>
+          <p className="project-note">
+            <b>工夫した点：</b>
+            AIで作った初版をデザイナー目線で見直し、一番の強み「髪質改善」をファーストビューで目立たせる、キャッチコピーの改行位置をそろえる、ボタン色をブランドの木の質感に合うブラウンに変える、8か所あった予約ボタンを4か所に絞る、セクションごとにばらばらだった左端をそろえるなど、訴求の優先順位と読みやすさを調整。店舗データ（JSON）を1つ追加するだけで新しい店舗ページが作れる仕組みにした。
+          </p>
+          <div className="shot-grid">
+            <figure className="project-shot">
+              <img src="/images/lueur-shibuya.png" alt="Lueur渋谷店LPのファーストビュー" />
+              <figcaption>渋谷店LP — ファーストビュー</figcaption>
+            </figure>
+            <figure className="project-shot">
+              <img src="/images/lueur-top.png" alt="Lueurの店舗選択ページ。4店舗のLPへのリンクが並んでいる" />
+              <figcaption>店舗選択ページ — 1つのテンプレートから4店舗に展開</figcaption>
+            </figure>
+          </div>
+          <div className="tech-tags">
+            <span className="tech-tag">LPデザイン</span>
+            <span className="tech-tag">Next.js</span>
+            <span className="tech-tag">TypeScript</span>
+            <span className="tech-tag">Claude API</span>
+            <span className="tech-tag">Vercel</span>
+          </div>
+          <div className="project-links">
+            <a href="https://lueur-salon-lp.vercel.app" target="_blank" rel="noopener">Demo ↗</a>
+            <a href="https://github.com/yoshiakiyui0214/lueur-salon-lp" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+
         {/* 案件 001 */}
         <h2 className="section-title">
           <span className="no">案件 001</span>社内文書検索AI（RAG）
